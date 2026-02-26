@@ -1,6 +1,6 @@
 import { categorizePullRequests } from "./categorize-pull-requests.js";
 import { pullRequestToString } from "./pull-request-to-string.js";
-import { renderTemplate } from "./render-template.js";
+import { renderTemplate } from "./render-template/render-template.js";
 const generateChangeLog = (params) => {
   const { pullRequests, config } = params;
   if (pullRequests.length === 0) {

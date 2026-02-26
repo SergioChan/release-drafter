@@ -1,5 +1,5 @@
 import { sortPullRequests } from "./sort-pull-requests.js";
-import { renderTemplate } from "./render-template.js";
+import { renderTemplate } from "./render-template/render-template.js";
 import { generateChangeLog } from "./generate-changelog.js";
 import { generateContributorsSentence } from "./generate-contributors-sentence.js";
 import { c as context } from "../../../../github.js";
